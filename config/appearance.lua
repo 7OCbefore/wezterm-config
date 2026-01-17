@@ -3,7 +3,7 @@ local wezterm = require("wezterm")
 return {
   term = "xterm-256color",
   animation_fps = 60,
-  max_fps = 60,
+  max_fps = 120,
   
   --OpenGL，WebGpu
   front_end = "WebGpu", 
@@ -63,7 +63,7 @@ return {
   integrated_title_button_color = "auto",
   integrated_title_button_alignment = "Right",
   initial_cols = 106,
-  initial_rows = 22,
+  initial_rows = 24,
   window_padding = {
     left = 5,
     right = 10,
